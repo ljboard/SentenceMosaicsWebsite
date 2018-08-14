@@ -11,10 +11,10 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showing: "Tutorial",
+      showing: "About the App",
       selected: {
-        "Tutorial": true,
-        "About the App": false,
+        "Tutorial": false,
+        "About the App": true,
         "About Us": false
       }
     };
