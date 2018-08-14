@@ -1,0 +1,72 @@
+.App {
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
+}
+
+.TitleRow {
+  height: 700px;
+}
+
+.TitleText {
+  text-align: center;
+}
+
+.TitleText h1 {
+  font-size: 65px;
+  color: #183185;
+  font-weight: 100;
+}
+
+.TitleText p {
+  font-size: 25px;
+}
+
+.GetStarted {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.GetStarted a:hover, .GetStarted a:active, .GetStarted a:visited {
+  text-decoration: none;
+}
+
+.GetStarted a:hover, .GetStarted a:active {
+  background-color: #24ace2; 
+}
+
+.GetStarted a {
+  background-color: #294bbb;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  border-radius: 30px;
+  font-size: 32px;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.iPad {
+  background-image: url(./media/ipad.png); 
+  width: 350px;
+  height: 522px;
+  padding-top: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.SectionName {
+  text-align: center;
+}
+
+.SectionName h2 {
+  background-color: #CAE4E1;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.selected h2 {
+  background-color: #24ace2;
+}
+
+li, p {
+  font-size: 15px;
+}
