@@ -23,7 +23,7 @@ class AboutTheApp extends Component {
         </ul>
         <p>In addition, the program can be of benefit to adults post-CVA (cerebrovascular accident/stroke) with aphasia and adults with dementia for whom familiar pictures can be a key to memory retention.</p>
       <h3>Background</h3>
-      <p>For many years, language pathologists and teachers had to create their own tools for teaching sentence construction. For example, Alyse Baker created a foam board which allowed students to interact with words: </p>
+      <p>For many years, language pathologists and teachers had to create their own tools for teaching sentence construction. For example, Alyse Baker created a foam board which allowed students to visualize how various parts of speech contribute to form sentences by physically interact with words: </p>
       <Row>
         <Col xs={12} md={6}>
           <img src={require('../media/foamboard.png')} alt="Foam board" width={"100%"} height={"100%"} />
@@ -32,12 +32,9 @@ class AboutTheApp extends Component {
           <img src={require('../media/foamboard_example.jpg')} alt="Foam board" width={"100%"} height={"100%"} />
         </Col>
       </Row>
-      <p>However, these types of tools are not easily transportable for students, teachers, or parents, who may want to practice with their children outside of classtime.</p>
+      <p>These types of tools are not the most efficient because of several reasons. First, the foam board is too bulky and not easily transportable, which makes it inconvenient for students and parents who want to utilize the tool outside of class time. Second, even though the velcro used to change the order of the parts of speech allows students to create a variety of different sentences, the vocabulary blocks themselves are not customizable enough and don’t have a wide range of options. Because of these limiting aspects of the foam board, it was decided that an app would greatly improve this system, and greatly benefit the students’ learning.</p>
       <h3>Research in Speech Pathology</h3>
-      <p>This app builds upon the original work of Edith Fitzgerald who published Straight Language for the Deaf
-      in 1926. The Fitzgerald Key uses color to represent parts of speech (noun, pronoun,
-      adjective, adverb, verb, etc.) as a tool for instruction. In this app, additional categories for prepositions, punctuation, and functional usage of
-      words (“social” and “wh-words”) were added.</p>
+      <p>This app builds upon the original work of Edith Fitzgerald who published Straight Language for the Deaf in 1926. The Fitzgerald Key uses unique colors to represent different parts of speech (noun as orange, pronoun as yellow, verb as green, etc.) as a tool for instruction. In this app, additional categories for prepositions, punctuation, and functional usage of words (“social” and “wh-words”) were added to diversify the vocabulary and allow students to construct more complex sentences.</p>
       </div>
     );
   }
