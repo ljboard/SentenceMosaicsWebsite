@@ -17,8 +17,9 @@
   font-weight: 100;
 }
 
-.TitleText p {
-  font-size: 25px;
+.TitleText h4 {
+  font-size: 20px;
+  color: #818181;
 }
 
 .GetStarted {

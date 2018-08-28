@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
-import demo from '../media/SentenceMosaicsDemo.mp4';
+import demo from '../media/demovideo.mp4';
 import '../App.css';
 
 class Title extends Component {
@@ -11,7 +11,7 @@ class Title extends Component {
           <Col className="TitleText" xs={12} md={6} mdPush={6}>
             <Col smHidden xsHidden style={{height: 150}}></Col>
             <h1> Sentence Mosaics </h1>
-            <p> A new way to visualize language-learning </p>
+            <h4> A free speech therapy app to teach and reinforce formulation of complete and meaningful spoken sentences </h4>
             <div className="GetStarted">
               <a href="https://itunes.apple.com/us/app/sentence-mosaics/id1288635184?mt=8" target="_blank">
                 GET STARTED
@@ -21,8 +21,7 @@ class Title extends Component {
           <Col xs={12} md={6} mdPull={6}>
             <Col smHidden xsHidden style={{height: 100}}></Col>
             <div className="iPad">
-              <video src={demo} controls={false} loop={true} muted autoPlay={true} width={318} height={418}></video>
-              {/* <img src={dog} alt="Demo Image" width={318} height={418} /> */}
+              <video src={demo} controls={false} loop={true} muted autoPlay={true} width={318} height={410}></video>
             </div>
           </Col>
         </Row>
