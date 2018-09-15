@@ -10,10 +10,9 @@ class AboutUs extends Component {
         <Row>
           <Col xs={12} md={6}>
             <h3>Program Development and Implementation</h3>
-            <ul>
-              <li>Alyse O. Baker, CCC-SLP, Wexford PA </li>
-            </ul>
+            <p>Alyse O. Baker, CCC-SLP, Wexford PA </p>
             <h3>App Design and Development</h3>
+            <p>Designed and Developed by <b>Design for America</b>, a student organization at Carnegie Mellon University that creates technology and design solutions for social good. </p> 
             <ul>
               <li>Ashley Lai</li>
               <li>Christie Chang</li>
@@ -32,10 +31,12 @@ class AboutUs extends Component {
             <ul>
               <li>Dr. Stephen Pellathy, Hampton Township School District, Allison Park, PA</li>
             </ul>
+            <h3>Contact Information</h3>
+            <p><b>Design for America:</b> cmu.designforamerica@gmail.com</p>
           </Col>
           <Col xs={12} md={6}>
             <img src={require('../media/team.png')} alt="Foam board" width={"100%"} height={"100%"} />
-            <p>Left to right: David Kosbie, Lizzy Board, Alyse Baker, Jennifer Chou, Mehar Sawhney, Sashank Gogula</p>
+            <p><i>Left to right: David Kosbie, Lizzy Board, Alyse Baker, Jennifer Chou, Mehar Sawhney, Sashank Gogula</i></p>
           </Col>
         </Row>
       </div>
