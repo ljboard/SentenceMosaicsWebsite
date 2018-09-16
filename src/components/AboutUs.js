@@ -12,7 +12,7 @@ class AboutUs extends Component {
             <h3>Program Development and Implementation</h3>
             <p>Alyse O. Baker, CCC-SLP, Wexford PA </p>
             <h3>App Design and Development</h3>
-            <p>Designed and Developed by <b>Design for America</b>, a student organization at Carnegie Mellon University that creates technology and design solutions for social good. </p> 
+            <p>Designed and Developed by <b><a href="http://www.dfacmu.com/">Design for America</a></b>, a student organization at Carnegie Mellon University that creates technology and design solutions for social good. </p> 
             <ul>
               <li>Ashley Lai</li>
               <li>Christie Chang</li>
