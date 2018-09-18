@@ -21,7 +21,7 @@ class Title extends Component {
           <Col xs={12} md={6} mdPull={6}>
             <Col smHidden xsHidden style={{height: 100}}></Col>
             <div className="iPad">
-              <video src={demo} controls={false} loop={true} muted autoPlay={true} width={318} height={410}></video>
+              <iframe width="313" height="410" src="https://www.youtube.com/embed/kWJ50pL9oik?rel=0&controls=0&showinfo=0&autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
           </Col>
         </Row>
